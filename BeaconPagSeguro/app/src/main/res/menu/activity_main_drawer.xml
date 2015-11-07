@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_promo"
+            android:icon="@drawable/ic_drawer_suggest"
+            android:title="Ofertas"/>
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/ic_drawer_evaluation"
+            android:title="Favoritos"/>
+
+        <item
+            android:id="@+id/nav_previous_offer"
+            android:icon="@drawable/ic_drawer_previous"
+            android:title="Ofertas Anteriores"/>
+
+        <item
+            android:id="@+id/nav_call"
+            android:icon="@drawable/ic_drawer_talkus"
+            android:title="Fale Conosco"/>
+
+        <item
+            android:id="@+id/nav_config"
+            android:icon="@drawable/ic_drawer_config"
+            android:title="Configurações"/>
+    </group>
+
+
+</menu>

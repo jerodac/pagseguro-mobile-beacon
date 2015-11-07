@@ -1,0 +1,21 @@
+# files for the dex VM
+*.dex
+*.hprof
+
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+/.idea/compiler.xml
+/.idea/gradle.xml
+.DS_Store
+/build
+/captures
+
+# IDEA/Android Studio project files, because
+# the project can be imported from settings.gradle
+.idea
+*.iml
+
+# Local IDEA workspace
+.idea/workspace.xml

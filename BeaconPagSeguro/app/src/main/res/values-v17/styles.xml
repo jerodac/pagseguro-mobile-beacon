@@ -1,0 +1,26 @@
+<resources>
+
+    <!--
+        Base application theme for API 16+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 16+ devices.
+    -->
+
+    <!-- Roboto thin disponivel disponivel na API 16 -->
+    <style name="roboto_thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <!-- Roboto light disponivel na API 16 -->
+    <style name="roboto_light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <!-- Roboto bold disponivel na API 16 -->
+    <style name="roboto_bold">
+        <item name="android:fontFamily">sans-serif-bold</item>
+    </style>
+
+
+
+</resources>

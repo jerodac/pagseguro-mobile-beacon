@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Colors Theme  -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Teclas brancas -->
+    <color name="keyboard_key_white_color">#FCFCFC</color>
+    <color name="keyboard_key_white_number">#83C658</color>
+    <color name="keyboard_key_white_pressed">#E3F5DC</color>
+
+    <!-- A dark Holo shade of green -->
+    <color name="holo_green_dark">#ff669900</color>
+    <color name="color_pressed_cardview">#103F51B5</color>
+    <color name="color_pressed_button">#3F79B5</color>
+</resources>

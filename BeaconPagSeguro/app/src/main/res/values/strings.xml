@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Beacon PagSeguro</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Sobre</string>
+
+    <!-- Geral -->
+    <string name="text_yes">Sim</string>
+    <string name="text_no">Não</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_title">PagSeguro Beacon</string>
+    <string name="dialog_change_user">Deseja sair?</string>
+    <string name="dialog_cancel_transaction">Deseja cancelar a operação?</string>
+    <string name="dialog_loading">Carregando&#8230;</string>
+
+    <!-- Detail Fragment -->
+    <string name="detail_item_unity_value">Valor Unitario:</string>
+    <string name="detail_item_total">Total:</string>
+    <string name="snack_bar_text_search_promo">Procurando ofertas nas proximidades...</string>
+
+
+</resources>
+

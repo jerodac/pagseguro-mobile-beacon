@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingTop="58dp">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#CCCCCC"
+        android:gravity="center"
+        android:text="CONFIGURAÇÕES"
+        android:padding="4dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:padding="10dp">
+
+
+        <Switch
+            android:id="@+id/switch_bluetooth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Controle Bluetooth"/>
+
+        <TextView
+            style="@style/roboto_thin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Autonomia de energia, desligar bluetooth após busca por dispositivos"
+            android:textSize="10sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/colorPrimary"/>
+
+        <Switch
+            android:id="@+id/switch_notify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Ocultar notificações"/>
+
+        <TextView
+            style="@style/roboto_thin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desabilitar notificações do aplicativo"
+            android:textSize="10sp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
